@@ -1,0 +1,72 @@
+#1
+
+# x = int(input("Enter age: "))
+# if x>=75:
+#     print("eligible")
+# elif x>=50 and x<=75:
+#     y = input("is he a military veteran(yes/no): ")
+#     if y=="yes":
+#         print("eligible")
+#     else:
+#         print("not eligible")
+# elif x<50:
+#     print("not eligible")
+
+    #6
+
+# x = int(input("Enter a number: "))
+# y = int(input("Enter a number: "))
+# choice = input("choose(option1/option2/option3): ")
+# option1=(x+y)
+# option2=(x*y)
+# option3=(x-y)
+
+# if choice == "option1":
+#     print(x+y)
+# elif choice == "option2":
+#     print(x*y)
+# elif choice == "option3":
+#     print(x-y)
+
+
+    #8
+
+# person = input("Enter your position: ")
+# position1= "CEO"
+# position2= "GM"
+
+# if person==position1:
+#     print("upto 10000 units")
+# elif person==position2:
+#     print("upto 1000 units")
+# else:
+#     print("nothing")
+
+    #18
+
+# X = input("Enter: ")
+
+# if X=="c":
+#      a = int(input("Enter radius: "))
+
+#      print("area of circle:", (3.14*(a**2)))
+# elif X=="s":
+#      a = int(input("Enter length: "))
+#      print("area of square:", a**2)
+
+
+       #35
+
+
+# amount = float(input("Enter retirement amount: "))
+# service = float(input("Enter the year of sevice: "))
+# if service<5:
+#     bonus=0
+# elif service>=5 and service<10:
+#     bonus=0.05
+# elif service>=10 and service<20:
+#     bonus=0.10
+# elif service>=20:
+#     bonus=0.20
+# finalamount=amount+(amount*bonus)
+# print(f"{finalamount:.2f}")
