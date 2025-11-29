@@ -1,0 +1,163 @@
+  #1
+
+
+# n1 = int(input("Enter a number: "))
+# n2 = int(input("Enter a number: "))
+# for i in range(n1,n2+1):
+#     print(i)
+
+
+   #2
+
+
+# n1 = int(input("Enter a number: "))
+# n2 = int(input("Enter a number: "))
+# for i in range(n1,n2+1):
+#     if i%2!=0:
+#         print(i)
+
+
+     #3
+
+
+# n1 = int(input("Enter a number: "))
+# n2 = int(input("Enter a number: "))
+# i =0
+# while (i<n2):
+#     print(i)
+#     i+=1
+
+
+     #4
+
+
+# N = int(input("Enter a number: "))
+# i=1
+# while (i<=N):
+#    sumofsq = 0
+#    for j in range(1,i+1):
+#       sumofsq+=j**2
+#    print(f"sum of square from 1 t0 {i}: {sumofsq}")
+#    i+=1
+      
+
+    #5
+
+
+# N = int(input("Enter a number: "))
+# if N>0:
+#     for i in range(0,N+1):
+#         if i%2==0:
+#             print(i)
+# elif N<0:
+#     for i in range(N+1,0):
+#         if i%2!=0:
+#             print(i)
+# elif N==0:
+#     print("No number to display")
+
+          
+     #6
+
+
+
+# N = list(map(int,input("Enter a number: ").split()))
+# sum=0
+# for i in N:
+#     if i%5!=0:
+#         sum+=i
+# print(sum)
+
+
+     #7
+
+
+# n1 = int(input("Enter a number: "))
+# n2 = int(input("Enter a number: "))
+# i = n2
+# while i>=n1:
+#     print(i)
+#     i-=1
+
+
+    #11
+
+
+
+# N = int(input("Enter a number: "))
+# sum=0
+# while N>=0:
+    
+#         sum+=N
+#         N = int(input("Enter a number: "))
+
+    
+   
+# print(sum)     
+
+
+
+     #15
+
+
+
+# N = list(map(int,input("Enter a number: ").split()))
+# for i in N:
+#     if i <0:
+#         pass
+#     else:
+#         print(i)
+
+
+      #16
+
+
+
+# targetamount = int(input("Enter target amount: "))
+# fixedamount = int(input("Enter fixed amount: "))
+# numofdays = 0
+# totalamount=0
+# while totalamount<=targetamount:
+#     totalamount+=fixedamount
+#     numofdays+=1
+# print(numofdays)
+
+
+      #17
+
+
+# correct_answer=("Python")
+# attempts = 0
+# max_attempts = 3
+
+# while attempts < max_attempts:
+#     answer = input("Guess the programming language: ")
+#     if answer == correct_answer:
+#         print("You Win!")
+#         break
+#     else:
+#         attempts += 1
+#         print("Wrong answer")
+
+# if attempts == max_attempts:
+#     print("Game Over")
+
+    
+      #18
+
+
+# numofsubj = int(input("Enter num of subjects: "))
+# totalmarks = 0 
+# for i in range(1,numofsubj+1):
+#     marks = int(input(f"Enter{i} marks: "))
+#     totalmarks+=marks
+# avg = totalmarks//numofsubj
+# print(avg)
+
+#19
+
+
+
+
+
+
